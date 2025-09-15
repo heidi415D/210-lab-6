@@ -24,5 +24,21 @@ void outputArray(double* arr, int size) {
     }
     cout << endl;;
     }
+
+    double sumArray(doulbe arr[] , int size) {
+        double sum = 0;
+        for (int i = 0; i < size; i++) {
+            sum += arr[i]; 
+        }
+        return sum;
+    }
     
+    int main() {
+        double arr [size];
+
+        enterArray(arr, SIZE);
+        outputArray(arr, SIZE);
+        double total= sumArray(arr, SIZE);
+        cout << "Su"
+    }
 
