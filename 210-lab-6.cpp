@@ -18,7 +18,7 @@ for (int i = 0; i < size; i++) {
 
 // function to display values in the array
 void outputArray(double* arr, int size) {
-    cout << "Outputting array elements:";
+    cout << "Outputting array elements: ";
     for (int i = 0; i < size; i++) {
         cout << *(arr + i) << " "; // pointer arithmetic
     }
