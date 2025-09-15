@@ -39,6 +39,8 @@ void outputArray(double* arr, int size) {
         enterArray(arr, SIZE);
         outputArray(arr, SIZE);
         double total= sumArray(arr, SIZE);
-        cout << "Su"
+        cout << "Sum = " << total << endl;
+
+        return 0;
     }
 
