@@ -22,7 +22,7 @@ void outputArray(double* arr, int size) {
     for (int i = 0; i < size; i++) {
         cout << *(arr + i) << " "; // pointer arithmetic
     }
-    cout << endl;
+    cout << endl;;
     }
+    
 
-// Function to calculate sum
